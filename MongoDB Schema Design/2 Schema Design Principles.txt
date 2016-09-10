@@ -1,0 +1,15 @@
+Schema Design Principles:
+------------------------
+
+MongoDB is schemaless.
+
+
+Pros:
+-----
+
+	Fast in place updates
+	Fast Querys
+
+Cons:
+-----
+	No joins supports.

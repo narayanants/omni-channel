@@ -1,0 +1,44 @@
+Schema Design Cardinality:
+==========================
+
+	Store what you query for
+
+	{
+		username:'Val',
+		reviews:[]
+	}
+
+
+	Reviews:
+	--------
+
+	{
+		score:6,
+		author:'Val'
+	}
+	{
+		score:10,
+		author:'Val'
+	}
+
+Users:
+------
+
+	{
+		name:'John',
+	}
+	{
+		name:'Jack',
+	}
+
+Events:
+-------
+	{
+		name:'Meetup1',
+		attendees:[]
+	}
+	{
+		name:'Meetup2',
+		attendees:[]
+	}
+

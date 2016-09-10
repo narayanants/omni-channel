@@ -1,0 +1,16 @@
+Mongoose Parts:
+---------------
+
+Popular ODM for MongoDB and Node.js
+
+Schema - a set of rules what fields a documents may have and what properties that documents must satisfy.
+
+Connection - an object that represents the no of sockets that are connected to the mongodb server.
+
+Model is a combination of schema and a connection.
+
+Mongoose documents can be thought as an instantiation of model.
+
+Document is a single object from a collection.
+
+It has the associated model and the .save function().
